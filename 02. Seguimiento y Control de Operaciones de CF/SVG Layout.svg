@@ -1,0 +1,300 @@
+<svg width="1749" height="739" viewBox="0 0 1749 739" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <rect id="HCF03D5" x="1681.78" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03C5" x="1681.78" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03B5" x="1681.78" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03A5" x="1681.78" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF03D5" x="1681.78" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 1681.78 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03C5" x="1681.78" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 1681.78 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03B5" x="1681.78" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 1681.78 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03A5" x="1681.78" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 1681.78 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03D5" x="1616.67" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 1616.67 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03C5" x="1616.67" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 1616.67 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03B5" x="1616.67" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 1616.67 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03A5" x="1616.67" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 1616.67 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03D5" x="1551.55" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 1551.55 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03C5" x="1551.55" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 1551.55 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03B5" x="1551.55" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 1551.55 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03A5" x="1551.55" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 1551.55 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03D5" x="1486.44" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 1486.44 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03C5" x="1486.44" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 1486.44 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03B5" x="1486.44" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 1486.44 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03A5" x="1486.44" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 1486.44 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF03D5" x="1356.22" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03C5" x="1356.22" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03B5" x="1356.22" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03A5" x="1356.22" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03D5" x="1291.11" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03C5" x="1291.11" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03B5" x="1291.11" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03A5" x="1291.11" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03D5" x="1226" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03C5" x="1226" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03B5" x="1226" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03A5" x="1226" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF03D3" x="1069.78" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03C3" x="1069.78" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03B3" x="1069.78" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03A3" x="1069.78" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF03D3" x="1069.78" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 1069.78 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03C3" x="1069.78" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 1069.78 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03B3" x="1069.78" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 1069.78 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03A3" x="1069.78" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 1069.78 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03D3" x="1004.67" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 1004.67 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03C3" x="1004.67" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 1004.67 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03B3" x="1004.67" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 1004.67 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03A3" x="1004.67" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 1004.67 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03D3" x="939.555" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 939.555 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03C3" x="939.555" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 939.555 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03B3" x="939.555" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 939.555 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03A3" x="939.555" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 939.555 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03D3" x="874.444" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 874.444 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03C3" x="874.444" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 874.444 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03B3" x="874.444" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 874.444 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03A3" x="874.444" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 874.444 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF03D3" x="744.222" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03C3" x="744.222" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03B3" x="744.222" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03A3" x="744.222" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03D3" x="679.111" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03C3" x="679.111" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03B3" x="679.111" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03A3" x="679.111" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03D3" x="614" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03C3" x="614" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03B3" x="614" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03A3" x="614" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF03D1" x="457.778" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03C1" x="457.778" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03B1" x="457.778" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF03A1" x="457.778" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF03D1" x="457.777" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 457.777 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03C1" x="457.777" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 457.777 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03B1" x="457.777" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 457.777 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="GCF03A1" x="457.777" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 457.777 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03D1" x="392.667" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 392.667 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03C1" x="392.667" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 392.667 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03B1" x="392.667" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 392.667 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="FCF03A1" x="392.667" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 392.667 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03D1" x="327.555" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 327.555 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03C1" x="327.555" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 327.555 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03B1" x="327.555" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 327.555 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="ECF03A1" x="327.555" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 327.555 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03D1" x="262.444" y="737.2" width="65.1111" height="47.8" transform="rotate(-180 262.444 737.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03C1" x="262.444" y="689.4" width="65.1111" height="47.8" transform="rotate(-180 262.444 689.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03B1" x="262.444" y="641.6" width="65.1111" height="47.8" transform="rotate(-180 262.444 641.6)" stroke="black" stroke-width="3"/>
+    <rect id="DCF03A1" x="262.444" y="593.8" width="65.1111" height="47.8" transform="rotate(-180 262.444 593.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF03D1" x="132.222" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03C1" x="132.222" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03B1" x="132.222" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF03A1" x="132.222" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03D1" x="67.1111" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03C1" x="67.1111" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03B1" x="67.1111" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF03A1" x="67.1111" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03D1" x="2" y="689.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03C1" x="2" y="641.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03B1" x="2" y="593.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF03A1" x="2" y="546" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF02D5" x="1681.78" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02C5" x="1681.78" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02B5" x="1681.78" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02A5" x="1681.78" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF02D5" x="1681.78" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 1681.78 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02C5" x="1681.78" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 1681.78 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02B5" x="1681.78" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 1681.78 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02A5" x="1681.78" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 1681.78 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02D5" x="1616.67" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 1616.67 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02C5" x="1616.67" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 1616.67 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02B5" x="1616.67" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 1616.67 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02A5" x="1616.67" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 1616.67 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02D5" x="1551.56" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 1551.56 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02C5" x="1551.56" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 1551.56 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02B5" x="1551.56" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 1551.56 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02A5" x="1551.56" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 1551.56 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02D5" x="1486.44" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 1486.44 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02C5" x="1486.44" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 1486.44 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02B5" x="1486.44" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 1486.44 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02A5" x="1486.44" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 1486.44 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF02D5" x="1356.22" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02C5" x="1356.22" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02B5" x="1356.22" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02A5" x="1356.22" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02D5" x="1291.11" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02C5" x="1291.11" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02B5" x="1291.11" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02A5" x="1291.11" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02D5" x="1226" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02C5" x="1226" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02B5" x="1226" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02A5" x="1226" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF02D3" x="1069.78" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02C3" x="1069.78" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02B3" x="1069.78" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02A3" x="1069.78" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF02D3" x="1069.78" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 1069.78 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02C3" x="1069.78" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 1069.78 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02B3" x="1069.78" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 1069.78 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02A3" x="1069.78" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 1069.78 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02D3" x="1004.67" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 1004.67 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02C3" x="1004.67" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 1004.67 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02B3" x="1004.67" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 1004.67 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02A3" x="1004.67" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 1004.67 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02D3" x="939.555" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 939.555 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02C3" x="939.555" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 939.555 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02B3" x="939.555" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 939.555 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02A3" x="939.555" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 939.555 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02D3" x="874.444" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 874.444 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02C3" x="874.444" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 874.444 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02B3" x="874.444" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 874.444 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02A3" x="874.444" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 874.444 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF02D3" x="744.222" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02C3" x="744.222" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02B3" x="744.222" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02A3" x="744.222" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02D3" x="679.111" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02C3" x="679.111" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02B3" x="679.111" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02A3" x="679.111" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02D3" x="614" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02C3" x="614" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02B3" x="614" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02A3" x="614" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF02D1" x="457.778" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02C1" x="457.778" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02B1" x="457.778" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF02A1" x="457.778" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF02D1" x="457.777" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 457.777 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02C1" x="457.777" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 457.777 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02B1" x="457.777" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 457.777 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="GCF02A1" x="457.777" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 457.777 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02D1" x="392.667" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 392.667 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02C1" x="392.667" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 392.667 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02B1" x="392.667" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 392.667 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="FCF02A1" x="392.667" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 392.667 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02D1" x="327.555" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 327.555 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02C1" x="327.555" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 327.555 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02B1" x="327.555" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 327.555 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="ECF02A1" x="327.555" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 327.555 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02D1" x="262.444" y="464.2" width="65.1111" height="47.8" transform="rotate(-180 262.444 464.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02C1" x="262.444" y="416.4" width="65.1111" height="47.8" transform="rotate(-180 262.444 416.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02B1" x="262.444" y="368.6" width="65.1111" height="47.8" transform="rotate(-180 262.444 368.6)" stroke="black" stroke-width="3"/>
+    <rect id="DCF02A1" x="262.444" y="320.8" width="65.1111" height="47.8" transform="rotate(-180 262.444 320.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF02D1" x="132.222" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02C1" x="132.222" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02B1" x="132.222" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF02A1" x="132.222" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02D1" x="67.1111" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02C1" x="67.1111" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02B1" x="67.1111" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF02A1" x="67.1111" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02D1" x="2" y="416.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02C1" x="2" y="368.6" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02B1" x="2" y="320.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF02A1" x="2" y="273" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF01D5" x="1681.78" y="145.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01C5" x="1681.78" y="97.5999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01B5" x="1681.78" y="49.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01A5" x="1681.78" y="2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF01D5" x="1681.78" y="193.2" width="65.1111" height="47.8" transform="rotate(-180 1681.78 193.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01C5" x="1681.78" y="145.4" width="65.1111" height="47.8" transform="rotate(-180 1681.78 145.4)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01B5" x="1681.78" y="97.5999" width="65.1111" height="47.8" transform="rotate(-180 1681.78 97.5999)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01A5" x="1681.78" y="49.8" width="65.1111" height="47.8" transform="rotate(-180 1681.78 49.8)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01D5" x="1616.67" y="193.2" width="65.1111" height="47.8" transform="rotate(-180 1616.67 193.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01C5" x="1616.67" y="145.4" width="65.1111" height="47.8" transform="rotate(-180 1616.67 145.4)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01B5" x="1616.67" y="97.5999" width="65.1111" height="47.8" transform="rotate(-180 1616.67 97.5999)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01A5" x="1616.67" y="49.8" width="65.1111" height="47.8" transform="rotate(-180 1616.67 49.8)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01D5" x="1551.56" y="193.2" width="65.1111" height="47.8" transform="rotate(-180 1551.56 193.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01C5" x="1551.56" y="145.4" width="65.1111" height="47.8" transform="rotate(-180 1551.56 145.4)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01B5" x="1551.56" y="97.5999" width="65.1111" height="47.8" transform="rotate(-180 1551.56 97.5999)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01A5" x="1551.56" y="49.8" width="65.1111" height="47.8" transform="rotate(-180 1551.56 49.8)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01D5" x="1486.44" y="193.2" width="65.1111" height="47.8" transform="rotate(-180 1486.44 193.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01C5" x="1486.44" y="145.4" width="65.1111" height="47.8" transform="rotate(-180 1486.44 145.4)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01B5" x="1486.44" y="97.5999" width="65.1111" height="47.8" transform="rotate(-180 1486.44 97.5999)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01A5" x="1486.44" y="49.8" width="65.1111" height="47.8" transform="rotate(-180 1486.44 49.8)" stroke="black" stroke-width="3"/>
+    <rect id="CCF01D5" x="1356.22" y="145.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01C5" x="1356.22" y="97.5999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01B5" x="1356.22" y="49.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01A5" x="1356.22" y="2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01D5" x="1291.11" y="145.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01C5" x="1291.11" y="97.5999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01B5" x="1291.11" y="49.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01A5" x="1291.11" y="2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01D5" x="1226" y="145.4" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01C5" x="1226" y="97.5999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01B5" x="1226" y="49.8" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01A5" x="1226" y="2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF01D3" x="1069.78" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01C3" x="1069.78" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01B3" x="1069.78" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01A3" x="1069.78" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF01D3" x="1069.78" y="194" width="65.1111" height="47.8" transform="rotate(-180 1069.78 194)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01C3" x="1069.78" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 1069.78 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01B3" x="1069.78" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 1069.78 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01A3" x="1069.78" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 1069.78 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01D3" x="1004.67" y="194" width="65.1111" height="47.8" transform="rotate(-180 1004.67 194)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01C3" x="1004.67" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 1004.67 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01B3" x="1004.67" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 1004.67 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01A3" x="1004.67" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 1004.67 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01D3" x="939.555" y="194" width="65.1111" height="47.8" transform="rotate(-180 939.555 194)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01C3" x="939.555" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 939.555 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01B3" x="939.555" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 939.555 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01A3" x="939.555" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 939.555 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01D3" x="874.444" y="194" width="65.1111" height="47.8" transform="rotate(-180 874.444 194)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01C3" x="874.444" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 874.444 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01B3" x="874.444" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 874.444 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01A3" x="874.444" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 874.444 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="CCF01D3" x="744.222" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01C3" x="744.222" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01B3" x="744.222" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01A3" x="744.222" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01D3" x="679.111" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01C3" x="679.111" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01B3" x="679.111" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01A3" x="679.111" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01D3" x="614" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01C3" x="614" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01B3" x="614" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01A3" x="614" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+    <rect id="HCF01D1" x="457.889" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01C1" x="457.889" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01B1" x="457.889" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="HCF01A1" x="457.889" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="GCF01D1" x="457.888" y="194" width="65.1111" height="47.8" transform="rotate(-180 457.888 194)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01C1" x="457.888" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 457.888 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01B1" x="457.888" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 457.888 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="GCF01A1" x="457.888" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 457.888 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01D1" x="392.778" y="194" width="65.1111" height="47.8" transform="rotate(-180 392.778 194)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01C1" x="392.778" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 392.778 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01B1" x="392.778" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 392.778 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="FCF01A1" x="392.778" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 392.778 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01D1" x="327.666" y="194" width="65.1111" height="47.8" transform="rotate(-180 327.666 194)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01C1" x="327.666" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 327.666 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01B1" x="327.666" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 327.666 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="ECF01A1" x="327.666" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 327.666 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01D1" x="262.555" y="194" width="65.1111" height="47.8" transform="rotate(-180 262.555 194)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01C1" x="262.555" y="146.2" width="65.1111" height="47.8" transform="rotate(-180 262.555 146.2)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01B1" x="262.555" y="98.3999" width="65.1111" height="47.8" transform="rotate(-180 262.555 98.3999)" stroke="black" stroke-width="3"/>
+    <rect id="DCF01A1" x="262.555" y="50.6001" width="65.1111" height="47.8" transform="rotate(-180 262.555 50.6001)" stroke="black" stroke-width="3"/>
+    <rect id="CCF01D1" x="132.333" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01C1" x="132.333" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01B1" x="132.333" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="CCF01A1" x="132.333" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01D1" x="67.2222" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01C1" x="67.2222" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01B1" x="67.2222" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="BCF01A1" x="67.2222" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01D1" x="2.11108" y="146.2" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01C1" x="2.11108" y="98.3999" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01B1" x="2.11108" y="50.6001" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+    <rect id="ACF01A1" x="2.11108" y="2.80005" width="65.1111" height="47.8" stroke="black" stroke-width="3"/>
+
+</svg>
