@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #B0C4DE; /* Color azul grisáceo */
@@ -13,6 +14,7 @@
             align-items: center;
             height: 100vh;
             width: 100vw;
+            font-family: 'Roboto', sans-serif;
         }
         iframe {
             border: none;
@@ -24,11 +26,37 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .password-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 500;
         }
         .password-form input {
             margin: 5px;
             padding: 10px;
             font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 250px;
+        }
+        .password-form button {
+            margin: 10px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .password-form button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
