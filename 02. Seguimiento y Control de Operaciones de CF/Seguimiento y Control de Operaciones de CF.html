@@ -18,10 +18,40 @@
             border: none;
             width: 100%;
             height: 100%;
+            display: none; /* Ocultar el iframe inicialmente */
+        }
+        .password-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .password-form input {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-    <iframe title="SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF" src="https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection" allowFullScreen="true"></iframe>
+    <div class="password-form" id="passwordForm">
+        <h2>Ingrese la contraseña para continuar</h2>
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="checkPassword()">Enviar</button>
+    </div>
+    <iframe title="SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF" id="contentFrame" src="https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection" allowFullScreen="true"></iframe>
+    
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const correctPassword = '1234'; // Cambia esto por la contraseña correcta
+
+            if (password === correctPassword) {
+                document.getElementById('passwordForm').style.display = 'none';
+                document.getElementById('contentFrame').style.display = 'block';
+            } else {
+                alert('Contraseña incorrecta. Inténtelo de nuevo.');
+            }
+        }
+    </script>
 </body>
 </html>
