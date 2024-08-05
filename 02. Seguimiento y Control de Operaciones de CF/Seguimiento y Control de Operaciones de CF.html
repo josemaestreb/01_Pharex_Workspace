@@ -22,7 +22,7 @@
             height: 100%;
             display: none; /* Ocultar el iframe inicialmente */
         }
-        .password-form {
+        .password-form, .options-form {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -31,12 +31,12 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .password-form h2 {
+        .password-form h2, .options-form h2 {
             margin-bottom: 20px;
             color: #333;
             font-weight: 500;
         }
-        .password-form input {
+        .password-form input, .options-form button {
             margin: 5px;
             padding: 10px;
             font-size: 16px;
@@ -44,7 +44,7 @@
             border-radius: 5px;
             width: 250px;
         }
-        .password-form button {
+        .password-form button, .options-form button {
             margin: 10px 0;
             padding: 10px 20px;
             font-size: 16px;
@@ -55,7 +55,7 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
-        .password-form button:hover {
+        .password-form button:hover, .options-form button:hover {
             background-color: #0056b3;
         }
     </style>
@@ -66,7 +66,12 @@
         <input type="password" id="password" placeholder="Contraseña">
         <button onclick="checkPassword()">Enviar</button>
     </div>
-    <iframe title="SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF" id="contentFrame" src="https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection" allowFullScreen="true"></iframe>
+    <div class="options-form" id="optionsForm" style="display: none;">
+        <h2>Seleccione una opción</h2>
+        <button onclick="loadPowerBI()">Seguimiento CF - Power BI</button>
+        <button onclick="loadInspections()">Registro de Inspecciones CF</button>
+    </div>
+    <iframe title="SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF" id="contentFrame" src="" allowFullScreen="true"></iframe>
     
     <script>
         function checkPassword() {
@@ -75,10 +80,23 @@
 
             if (password === correctPassword) {
                 document.getElementById('passwordForm').style.display = 'none';
-                document.getElementById('contentFrame').style.display = 'block';
+                document.getElementById('optionsForm').style.display = 'flex';
             } else {
                 alert('Contraseña incorrecta. Inténtelo de nuevo.');
             }
+        }
+
+        function loadPowerBI() {
+            document.getElementById('optionsForm').style.display = 'none';
+            document.getElementById('contentFrame').src = 'https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection';
+            document.getElementById('contentFrame').style.display = 'block';
+        }
+
+        function loadInspections() {
+            document.getElementById('optionsForm').style.display = 'none';
+            // Coloca aquí la URL del segundo informe
+            document.getElementById('contentFrame').src = 'https://docs.google.com/spreadsheets/d/1x9a48HBPFbvJL_paIYCIsGWfM0jTHwiKHdX1jAJPS_4/edit?usp=sharing';
+            document.getElementById('contentFrame').style.display = 'block';
         }
     </script>
 </body>
