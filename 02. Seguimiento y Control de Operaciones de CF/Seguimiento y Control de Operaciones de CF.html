@@ -15,14 +15,17 @@
             height: 100vh;
             width: 100vw;
             font-family: 'Roboto', sans-serif;
+            overflow: hidden; /* Evita desplazamiento */
         }
         iframe {
             border: none;
             width: 100%;
             height: 100%;
             display: none; /* Ocultar el iframe inicialmente */
+            opacity: 0; /* Inicialmente invisible */
+            transition: opacity 0.3s ease-in-out; /* Animación de desvanecimiento */
         }
-        .password-form, .options-form {
+        .form-container {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -30,13 +33,14 @@
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out; /* Animación de entrada */
         }
-        .password-form h2, .options-form h2 {
+        .form-container h2 {
             margin-bottom: 20px;
             color: #333;
             font-weight: 500;
         }
-        .password-form input, .options-form button {
+        .form-container input, .form-container button {
             margin: 5px;
             padding: 10px;
             font-size: 16px;
@@ -44,7 +48,7 @@
             border-radius: 5px;
             width: 250px;
         }
-        .password-form button, .options-form button {
+        .form-container button {
             margin: 10px 0;
             padding: 10px 20px;
             font-size: 16px;
@@ -53,20 +57,24 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: background-color 0.2s;
         }
-        .password-form button:hover, .options-form button:hover {
+        .form-container button:hover {
             background-color: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.96); }
+            to { opacity: 1; transform: scale(1); }
         }
     </style>
 </head>
 <body>
-    <div class="password-form" id="passwordForm">
+    <div class="form-container" id="passwordForm">
         <h2>Ingrese la contraseña para continuar</h2>
         <input type="password" id="password" placeholder="Contraseña">
         <button onclick="checkPassword()">Enviar</button>
     </div>
-    <div class="options-form" id="optionsForm" style="display: none;">
+    <div class="form-container" id="optionsForm" style="display: none;">
         <h2>Seleccione una opción</h2>
         <button onclick="loadPowerBI()">Seguimiento CF - Power BI</button>
         <button onclick="loadInspections()">Registro de Inspecciones CF</button>
@@ -76,6 +84,7 @@
     <script>
         function checkPassword() {
             const password = document.getElementById('password').value;
+            
             const correctPassword = '1234'; // Cambia esto por la contraseña actual
 
             if (password === correctPassword) {
@@ -88,15 +97,18 @@
 
         function loadPowerBI() {
             document.getElementById('optionsForm').style.display = 'none';
-            document.getElementById('contentFrame').src = 'https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection';
-            document.getElementById('contentFrame').style.display = 'block';
+            const iframe = document.getElementById('contentFrame');
+            iframe.src = 'https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection';
+            iframe.style.display = 'block';
+            setTimeout(() => { iframe.style.opacity = 1; }, 50); // Desvanecimiento
         }
 
         function loadInspections() {
             document.getElementById('optionsForm').style.display = 'none';
-            // Coloca aquí la URL del segundo informe
-            document.getElementById('contentFrame').src = 'https://docs.google.com/spreadsheets/d/1x9a48HBPFbvJL_paIYCIsGWfM0jTHwiKHdX1jAJPS_4/edit?usp=sharing';
-            document.getElementById('contentFrame').style.display = 'block';
+            const iframe = document.getElementById('contentFrame');
+            iframe.src = 'https://docs.google.com/spreadsheets/d/1x9a48HBPFbvJL_paIYCIsGWfM0jTHwiKHdX1jAJPS_4/edit?usp=drive_link'; // Coloca aquí la URL del segundo informe
+            iframe.style.display = 'block';
+            setTimeout(() => { iframe.style.opacity = 1; }, 50); // Desvanecimiento
         }
     </script>
 </body>
