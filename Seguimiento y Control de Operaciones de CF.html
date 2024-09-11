@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #B0C4DE; /* Color azul grisáceo */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            overflow: hidden; /* Evita desplazamiento */
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+            display: none; /* Ocultar el iframe inicialmente */
+            opacity: 0; /* Inicialmente invisible */
+            transition: opacity 0.3s ease-in-out; /* Animación de desvanecimiento */
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 500;
+        }
+        .form-container input, .form-container button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 250px;
+        }
+        .form-container button {
+            margin: 10px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.96); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container" id="passwordForm">
+        <h2>Ingrese la contraseña para continuar</h2>
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="checkPassword()">Enviar</button>
+    </div>
+    <div class="form-container" id="optionsForm" style="display: none;">
+        <h2>Seleccione una opción</h2>
+        <button onclick="loadPowerBI()">Seguimiento CF - Power BI</button>
+        <button onclick="loadInspections()">Registro de Inspecciones CF</button>
+    </div>
+    <iframe title="SEGUIMIENTO Y CONTROL DE OPERACIONES DE CF" id="contentFrame" src="" allowFullScreen="true"></iframe>
+    
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            
+            const correctPassword = '1234'; // Cambia esto por la contraseña actual
+
+            if (password === correctPassword) {
+                document.getElementById('passwordForm').style.display = 'none';
+                document.getElementById('optionsForm').style.display = 'flex';
+            } else {
+                alert('Contraseña incorrecta. Inténtelo de nuevo.');
+            }
+        }
+
+        function loadPowerBI() {
+            document.getElementById('optionsForm').style.display = 'none';
+            const iframe = document.getElementById('contentFrame');
+            iframe.src = 'https://app.powerbi.com/view?r=eyJrIjoiNDBkY2JkMWYtN2IzYi00ZWZhLTkyYzAtNjA1NjU0ODdkNGE4IiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ReportSection';
+            iframe.style.display = 'block';
+            setTimeout(() => { iframe.style.opacity = 1; }, 50); // Desvanecimiento
+        }
+
+        function loadInspections() {
+            document.getElementById('optionsForm').style.display = 'none';
+            const iframe = document.getElementById('contentFrame');
+            iframe.src = 'https://docs.google.com/spreadsheets/d/1x9a48HBPFbvJL_paIYCIsGWfM0jTHwiKHdX1jAJPS_4/edit?usp=drive_link'; // Coloca aquí la URL del segundo informe
+            iframe.style.display = 'block';
+            setTimeout(() => { iframe.style.opacity = 1; }, 50); // Desvanecimiento
+        }
+    </script>
+</body>
+</html>
