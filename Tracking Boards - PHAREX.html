@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking Boards - PHAREX</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <script>
+        // Lista de URLs para rotar
+        const urls = [
+            "https://app.powerbi.com/reportEmbed?reportId=db762d8f-2c46-402b-854e-b128725ece57&autoAuth=true&ctid=af0108b7-68f5-4edd-b28e-8a56e04fad32&pageName=258896249602a21b5331", // Resumen Pedidos
+            "https://app.powerbi.com/reportEmbed?reportId=db762d8f-2c46-402b-854e-b128725ece57&autoAuth=true&ctid=af0108b7-68f5-4edd-b28e-8a56e04fad32&pageName=8095d474bb2bdaa7f611", // Detalle Pedidos
+            "https://app.powerbi.com/reportEmbed?reportId=0a5ef60a-ef57-4c78-8739-5444e75aca8f&autoAuth=true&ctid=af0108b7-68f5-4edd-b28e-8a56e04fad32&pageName=126bc8ed520806c1a66b", // Recepciones
+            "https://app.powerbi.com/reportEmbed?reportId=0a5ef60a-ef57-4c78-8739-5444e75aca8f&autoAuth=true&ctid=af0108b7-68f5-4edd-b28e-8a56e04fad32&pageName=f68d3314422a7bce666b"  // Devoluciones
+        ];
+
+        let currentIndex = 0;
+
+        function rotateUrls() {
+            // Cambiar la URL del iframe
+            document.getElementById('reportFrame').src = urls[currentIndex];
+            // Incrementa el índice y reinicia si es necesario
+            currentIndex = (currentIndex + 1) % urls.length;
+        }
+
+        // Redirigir inmediatamente al cargar la página
+        window.onload = function() {
+            rotateUrls(); // Cargar la primera URL
+            // Cambiar de URL cada 2 minutos
+            setInterval(rotateUrls, 120000);
+        };
+    </script>
+</head>
+<body>
+    <iframe id="reportFrame" src=""></iframe>
+</body>
+</html>
