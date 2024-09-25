@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informes BI - PHAREX</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.pharex.co/wp-content/uploads/2022/01/pharex-favicon.svg" sizes="192x192">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #0477BF; /* Color azul */
@@ -14,67 +15,116 @@
             align-items: center;
             height: 100vh;
             width: 100vw;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            position: relative; /* Habilitar posicionamiento relativo */
             overflow: hidden; /* Evita desplazamiento */
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://www.pharex.co/wp-content/uploads/2021/12/SLIDE-4.webp');
+            background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+            opacity: 0.3; /* Opacidad del 50% */
+            z-index: -1; /* Colocar detrás de otros elementos */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: fadeIn 1.5s ease-in-out; /* Animación de entrada */
+        }
+        .logo {
+            width: 200px;
+            height: 40px; /* Altura fija para evitar desplazamiento */
+            margin-bottom: 10px; /* Espacio reducido entre la imagen y el formulario */
         }
         .form-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             background: white;
+            width: 20rem;
+
             padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Sombra más suave */
+            animation: slideUp 1.5s ease-in-out; /* Animación de entrada */
         }
         .form-container h2 {
             margin-bottom: 20px;
             color: #333;
-            font-weight: 500;
+            text-align: center;
+            font-weight: 600; /* Aumentar peso de la fuente */
         }
         .form-container button {
             margin: 10px 0;
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 12px 25px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
             color: white;
             background-color: #0477BF;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.2s;
+            width: 15rem;
+            transition: transform 0.2s ease-in-out, background-color 0.3s ease;
         }
         .form-container button:hover {
-            background-color: #0477BF;
+            background-color: #005A92;
+            transform: scale(1.05); /* Escala al hacer hover */
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            color: white; /* Color de texto blanco */
+            font-size: 13px; /* Tamaño de fuente */
+            text-align: right; /* Alinear texto a la derecha */
+            z-index: 10; /* Asegurarse de que el footer esté sobre otros elementos */
+            animation: slideUp 1.5s ease-in-out; /* Animación de entrada */
         }
         @keyframes fadeIn {
-            from { opacity: 0; transform: scale(0.96); }
-            to { opacity: 1; transform: scale(1); }
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
         iframe {
             border: none;
             width: 100%;
             height: 100%;
-            display: none; /* Ocultar el iframe inicialmente */
-            opacity: 0; /* Inicialmente invisible */
-            transition: opacity 0.3s ease-in-out; /* Animación de desvanecimiento */
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
         }
     </style>
 </head>
 <body>
-    <div class="form-container">
-        <h2 style="text-align: center;">
-            ¡Bienvenido a tu espacio PHAREX!<br>
-            <span style="font-size: 0.6em;">¿Qué datos deseas consultar hoy? ¡Tu información te espera!</span>
-        </h2>            
-        <div style="display: flex; flex-direction: column; align-items: center;">
-            <button onclick="window.location.href='https://josemaestreb.github.io/01_Pharex_Workspace/Tracking%20Boards%20-%20PHAREX.html'" style="margin: 10px 0;">Tracking Boards</button>
-            <button onclick="window.location.href='https://josemaestreb.github.io/01_Pharex_Workspace/Seguimiento%20y%20Control%20de%20Operaciones%20de%20CF.html'" style="margin: 10px 0;">Informes CF</button>
+    <div class="container">
+        <div class="form-container">
+            <img src="https://www.pharex.co/wp-content/uploads/2021/11/PHAREX-01.svg" alt="PHAREX-Original" class="logo">
+            <h2>¡Bienvenido al portal de conocimiento PHAREX!<br>
+                <span style="font-size: 0.7em;"><br>¿Qué datos deseas consultar hoy?</span>
+            </h2>
+            
+            <button onclick="window.location.href='https://josemaestreb.github.io/01_Pharex_Workspace/Tracking%20Boards%20-%20PHAREX.html'">Tracking Boards</button>
+            <button onclick="window.location.href='https://josemaestreb.github.io/01_Pharex_Workspace/Seguimiento%20y%20Control%20de%20Operaciones%20de%20CF.html'">Informes CF</button>
         </div>
     </div>
-    <iframe title="Informes BI - PHAREX" id="contentFrame" src="" allowfullscreen="true"></iframe>
     
-    <script>
-        // Puedes agregar aquí más funcionalidades si lo deseas
-    </script>
+    <iframe title="Informes BI - PHAREX" id="contentFrame" src="" allowfullscreen="true"></iframe>
+
+    <footer class="footer">
+        Desarrollado por LogiSmart<br>
+        Derechos Reservados Pharex © 2024
+    </footer>
 </body>
 </html>
