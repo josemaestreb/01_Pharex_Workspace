@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking Board - Pedidos</title>
+    <link rel="icon" href="https://www.pharex.co/wp-content/uploads/2022/01/pharex-favicon.svg" sizes="192x192">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <script>
+        // Lista de URLs para rotar
+        const urls = [
+            "https://app.powerbi.com/view?r=eyJrIjoiNmQ2N2Y2NGMtMzM3MS00NjhmLWE3YjAtOTY3ZTNjYjY5YWRhIiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=126bc8ed520806c1a66b", // Recepciones
+            "https://app.powerbi.com/view?r=eyJrIjoiNmQ2N2Y2NGMtMzM3MS00NjhmLWE3YjAtOTY3ZTNjYjY5YWRhIiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=f68d3314422a7bce666b"  // Devoluciones
+        ];
+
+        let currentIndex = 0;
+
+        function rotateUrls() {
+            // Cambiar la URL del iframe
+            document.getElementById('reportFrame').src = urls[currentIndex];
+            // Incrementa el índice y reinicia si es necesario
+            currentIndex = (currentIndex + 1) % urls.length;
+        }
+
+        // Redirigir inmediatamente al cargar la página
+        window.onload = function() {
+            rotateUrls(); // Cargar la primera URL
+            // Cambiar de URL cada 2 minutos
+            setInterval(rotateUrls, 120000);
+        };
+    </script>
+</head>
+<body>
+    <iframe id="reportFrame" src=""></iframe>
+</body>
+</html>
