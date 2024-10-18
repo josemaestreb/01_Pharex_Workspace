@@ -19,29 +19,27 @@
         }
     </style>
     <script>
+        // Lista de URLs para rotar
         const urls = [
             "https://app.powerbi.com/view?r=eyJrIjoiOGVjMGVhMjEtYjNkMS00NjFkLWExMDctZjQyNWU1YmQ5ZjFhIiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=258896249602a21b5331", // Resumen Pedidos
             "https://app.powerbi.com/view?r=eyJrIjoiOGVjMGVhMjEtYjNkMS00NjFkLWExMDctZjQyNWU1YmQ5ZjFhIiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=8095d474bb2bdaa7f611", // Detalle Pedidos
-            "https://tucuarentaURLaqui.com" // Tercera URL que cambia cada 2 minutos
+            "https://app.powerbi.com/view?r=eyJrIjoiNjkwZWNmOGQtNzVhNi00YWY4LWFmNDQtYWNkOWQ0N2ZkNDRiIiwidCI6ImFmMDEwOGI3LTY4ZjUtNGVkZC1iMjhlLThhNTZlMDRmYWQzMiJ9&pageName=ac4c92ec84ac64132c07" // Productividad
         ];
 
         let currentIndex = 0;
 
         function rotateUrls() {
+            // Cambiar la URL del iframe
             document.getElementById('reportFrame').src = urls[currentIndex];
+            // Incrementa el índice y reinicia si es necesario
             currentIndex = (currentIndex + 1) % urls.length;
         }
 
+        // Redirigir inmediatamente al cargar la página
         window.onload = function() {
-            rotateUrls();
-            setInterval(() => {
-                if (currentIndex === 2) {
-                    rotateUrls();
-                    setTimeout(rotateUrls, 120000); // Mostrar la tercera URL durante 2 minutos
-                } else {
-                    rotateUrls(); // Cambiar URL cada minuto
-                }
-            }, 60000); // Cada minuto
+            rotateUrls(); // Cargar la primera URL
+            // Cambiar de URL cada minuto
+            setInterval(rotateUrls, 60000);
         };
     </script>
 </head>
